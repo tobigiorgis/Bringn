@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./SASS/CSS/styles1.css">
+    <meta name="keywords" content="COURRIER, ENVIOS, SERVICIO, REGISTRARME, REGISTRAR">
+    <meta name="description" content="Plataforma para envios entre individuos. Pagate tu viaje trayendo cosas.">
+    <title>Registrarse</title>
+</head>
+<body>
+    <h1 class="h1__registro">Registrarse</h1>
+    <form class="form__reg">
+        <label for="Nombre"></label>
+        <input id="nombre" type="text" placeholder="Nombre">
+        <label for="Apellido"></label>
+        <input id="apellido" type="text" placeholder="Apellido">
+        <br>
+        <label for="Telefono"></label>
+        <input id="telefono" type="tel" placeholder="Telefono">
+        <br>
+        <label for="email"></label>
+        <input id="email" type="email" placeholder="Email">
+        <br>
+        <label for="password"></label>
+        <input id="password" type="text" placeholder="Password">
+        <br>
+        <input type="radio" name="Sexo" value="Masculino"> Masculino
+        <input type="radio" name="Sexo" value="Femenino"> Femenino
+        <br>
+        <h2 class="h2__registro">Seleccionar moneda</h2>
+        <select name="Moneda" id="Moneda a elegir">
+            <option value="Euro">€</option>
+            <option value="Dolar">$</option>
+            <option value="Bitcoin">BTC</option>
+        </select>
+        <br>
+        <button type="button" class="btn btn-primary" id="bt__submit" onclick="window.location='home.html'">Submit</button>
+        <input type="reset" value="Reset">
+    </form>
+    
+</body>
+</html>
