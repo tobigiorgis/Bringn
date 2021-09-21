@@ -4,6 +4,12 @@ body {
   margin: 0px;
   padding: 0px; }
 
+nav {
+  height: 80px; }
+
+.nav__btn, .dropdown {
+  margin-bottom: 35px; }
+
 #nav__2 {
   border-bottom: black;
   border-bottom-style: solid;
@@ -232,7 +238,7 @@ form {
   width: 70px;
   height: 30px;
   font-size: 10px;
-  margin-left: 60px;
+  margin-left: 120px;
   margin-bottom: 50px; }
 
 #interac__2 {
@@ -240,11 +246,22 @@ form {
   height: 30px;
   font-size: 10px;
   margin-bottom: 50px;
-  margin-left: 20px; }
+  margin-left: 30px; }
 
 .container {
   margin: 100px; }
 
 .container-usuarios {
-  margin-left: 30px;
+  margin-left: 0px;
   margin-top: 50px; }
+
+.bringn {
+  padding-left: 0px; }
+
+#formregistro {
+  margin: 100px; }
+
+#subbt {
+  color: cyan;
+  background-color: black;
+  border-color: black; }
