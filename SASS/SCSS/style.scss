@@ -8,28 +8,15 @@ body{
     margin: 0px;
     padding: 0px;
 }
-nav{
-    height: 100px;
-}
 
-#nav1{
-    border-bottom:$secondary-color;
-    border-bottom-style: solid;
-    border-top-style: solid;
-}
+
 #nav__2{
     border-bottom:$secondary-color;
     border-bottom-style: solid;
     border-top-style: solid;
     margin-top: 15px;
 }
-.nav__btn{
-    text-align: center;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 25px;
-}
+
 h1{
     color:black;
     width: auto;
@@ -95,12 +82,6 @@ ul{
 li{
     display: inline-block;
     padding-left: 10px;
-}
-
-
-ul li:hover ul{
-    display:block;
-    background-color: violet;
 }
 
 footer{
@@ -202,7 +183,7 @@ section{
     &:hover{
         transform: scale(1.2, 1.2);
         background-color: white;
-        color: black;
+        color:black;
         cursor: pointer;
         border-radius: 10%;
     }
@@ -235,6 +216,7 @@ section{
 .dropdown{
     display: flex;
     justify-content: flex-end;
+    margin-right: 10px;
 }
 
 .terminos{
