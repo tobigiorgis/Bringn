@@ -4,26 +4,11 @@ body {
   margin: 0px;
   padding: 0px; }
 
-nav {
-  height: 100px; }
-
-#nav1 {
-  border-bottom: black;
-  border-bottom-style: solid;
-  border-top-style: solid; }
-
 #nav__2 {
   border-bottom: black;
   border-bottom-style: solid;
   border-top-style: solid;
   margin-top: 15px; }
-
-.nav__btn {
-  text-align: center;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-top: 25px; }
 
 h1 {
   color: black;
@@ -46,22 +31,23 @@ h1 {
   font-family: 'Rock Salt', cursive;
   color: gray; }
 
-.perfil {
+.p__perfil {
   float: right;
-  display: flex;
-  justify-content: flex-start; }
+  margin-top: 30px; }
 
 .img__perfil {
-  width: 40px;
-  height: 40px;
+  width: 60px;
+  height: 60px;
   border-radius: 50%;
-  padding: 10px; }
+  padding: 10px;
+  margin-top: 10px; }
 
 .bt {
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-direction: column; }
+  flex-direction: column;
+  margin-top: 100px; }
 
 span {
   display: flex;
@@ -83,10 +69,6 @@ li {
   display: inline-block;
   padding-left: 10px; }
 
-ul li:hover ul {
-  display: block;
-  background-color: violet; }
-
 footer {
   font-style: oblique;
   display: block; }
@@ -103,59 +85,15 @@ footer {
   body {
     background: green; } }
 
-.pagina__1 {
-  display: grid;
-  width: 100%;
-  height: 100%;
-  grid-template-columns: 100%;
-  grid-template-rows: 15% 20% 20%;
-  grid-row-gap: 10px;
-  grid-column-gap: none;
-  align-items: stretch;
-  justify-items: stretch;
-  grid-template-areas: "Header" "Nav" "Home" "Footer"; }
-
-.pagina__0 {
-  display: grid;
-  width: 100%;
-  height: 100%;
-  grid-template-columns: 100%;
-  grid-template-rows: 15% 40% 20%;
-  grid-row-gap: 10px;
-  grid-column-gap: none;
-  align-items: stretch;
-  justify-items: stretch;
-  grid-template-areas: "Header" "Nav" "Home" "Footer"; }
-
-.pagina__2 {
-  display: grid;
-  width: 100%;
-  height: 100%;
-  grid-template-columns: 100%;
-  grid-template-rows: 50% 20% 20%;
-  grid-row-gap: 10px;
-  grid-column-gap: none;
-  align-items: stretch;
-  justify-items: stretch;
-  grid-template-areas: "Header" "Nav" "Home" "Footer"; }
-
-Header {
-  grid-area: Header; }
-
-Nav {
-  grid-area: Nav; }
-
-section {
-  grid-area: Home; }
-
 #foot {
-  grid-area: Footer;
   font-style: oblique; }
 
 #bt__1 {
   background-color: cyan;
   border: none;
-  font-family: monospace; }
+  font-family: monospace;
+  text-decoration: none;
+  color: white; }
   #bt__1:hover {
     transform: scale(1.2, 1.2);
     background-color: white;
@@ -166,7 +104,9 @@ section {
 #bt__2 {
   background-color: black;
   border: none;
-  font-family: monospace; }
+  font-family: monospace;
+  text-decoration: none;
+  color: white; }
   #bt__2:hover {
     transform: scale(1.2, 1.2);
     background-color: black;
@@ -179,7 +119,7 @@ section {
   background-color: cyan; }
 
 #ebutton {
-  color: black;
+  color: white;
   border-style: solid;
   border: 1px solid;
   border-color: cyan;
@@ -190,7 +130,8 @@ section {
 
 .dropdown {
   display: flex;
-  justify-content: flex-end; }
+  justify-content: flex-end;
+  margin-right: 60px; }
 
 .terminos {
   display: flex;
@@ -282,17 +223,7 @@ form {
   height: 50px;
   border-radius: 50%; }
 
-.bring {
-  display: inline-block; }
-
-.bring__2 {
-  float: left;
-  margin: 50px;
-  border: dashed;
-  height: 100px; }
-
 .usuarios_msj {
-  padding-left: 10px;
   padding-top: 15px;
   display: flex;
   justify-content: center; }
@@ -310,3 +241,10 @@ form {
   font-size: 10px;
   margin-bottom: 50px;
   margin-left: 20px; }
+
+.container {
+  margin: 100px; }
+
+.container-usuarios {
+  margin-left: 30px;
+  margin-top: 50px; }

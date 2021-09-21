@@ -11,76 +11,68 @@
     <title>Home</title>
 </head>
 <body>
-    <div class="pagina__0">
-        <div class="hd">
-    <header class="mic">
-        <h1><a class="btn__h1" href="./home.html">Bringn</a></h1>
-        <style>
-            @import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
-        </style>
-        <p id="subt">Pedilo. Te lo traen.</p>
-        <style>
-            @import url('https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap');
-        </style>
-        <div class="perfil">
-            <span>
-            <p class="p__perfil">PERFIL</p>
-            <img class="img__perfil" src="./SASS/resources/Masla.jpg" alt="Foto de Perfil">
-        </span>
+    <div class="container-fluid">
+        <div class="container-fluid row bloqueGeneral"> 
+                <div class="col-2 bloque1"></div>
+                <header class="col-8 bloque2">
+                <h1><a class="btn__h1" href="./home.html">Bringn</a></h1>
+                <style>
+                    @import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+                </style>
+                <p id="subt">Pedilo. Te lo traen.</p>
+                <style>
+                    @import url('https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap');
+                </style>
+                </header>
+                <div class="col-2 bloque3">
+                    <span>
+                    <p class="p__perfil">PERFIL</p>
+                        <img class="img__perfil" src="../SASS/resources/Masla.jpg" alt="Foto de Perfil">
+                    </span>
+                </div>
         </div>
-    </div>
-
-
-        <nav class="mic" id="nav__2"> 
+        <nav class="navbar navbar-dark bg-dark">
             <div class="home__button">
                 <a class="btn btn-primary" id="hbutton" href="./home.html" role="button">HOME</a>
             </div>
             <div class="nav__btn">
-            <ul class="nav nav-pills">
-                <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" id="obutton" href="./ofrecer.html">OFRECER</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" id="ebutton" href="./encargar.html">ENCARGAR</a>
-                </li>
-                
-            </ul>
-        
+                <ul class="nav nav-pills">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" id="obutton" href="./ofrecer.html">OFRECER</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" id="ebutton" href="./encargar.html">ENCARGAR</a>
+                    </li>
+                </ul>
+            </div>
                 <div class="dropdown">
-                    <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                    <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false"> 
                         Mas +
                     </button>
                     <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
                         <li><a class="dropdown-item" href="#">¿Cómo funciona?</a></li>
                         <li><a class="dropdown-item" href="#">Quienes somos</a></li>
                     </ul>
-                    </div>
-            </div>
-            </nav>
-    </header>
+                </div>
+        </nav>
 
-    <section class="usuarios">
-        <ul class="bring"> 
-            <li>
+    <section class="container-usuarios">
+        <div>
             <span>
-                <img class="img__usuario" src="./SASS/resources/alex.jpg" alt="Foto de Usuario">
+                <img class="img__usuario" src="../SASS/resources/alex.jpg" alt="Foto de Usuario">
                 <p class="usuarios_msj">Traigo celulares de España. Vuelo el 30/08. Por $50</p>
             </span>
                 <button type="button" class="btn btn-light" id="interac__1">Comentar</button>
                 <button type="button" class="btn btn-light" id="interac__2">Contactar</button>
-        
-        </li>
-        <li>
-        
+        </div>
+        <div>
             <span>
-                <img class="img__usuario" src="./SASS/resources/alex.jpg" alt="Foto de Usuario">
+                <img class="img__usuario" src="../SASS/resources/alex.jpg" alt="Foto de Usuario">
                 <p class="usuarios_msj">Traigo celulares de España. Vuelo el 30/08. Por $50</p>
             </span>
                 <button type="button" class="btn btn-light" id="interac__1">Comentar</button>
                 <button type="button" class="btn btn-light" id="interac__2">Contactar</button>
-        
-        </li>
-        </ul>
+        </div>
     </section>
 
     <footer id="foot">
