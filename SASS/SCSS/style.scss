@@ -9,11 +9,11 @@ body{
     padding: 0px;
 }
 nav{
-    height: 80px;
+    height: 11vh;
 }
 
 .nav__btn, .dropdown{
-    margin-bottom: 35px;
+    margin-bottom: 4vh;
 }
 
 
@@ -27,7 +27,7 @@ nav{
 h1{
     color:black;
     width: auto;
-    height: 10px;
+    height: 2vh;
     text-align: center;
     font-family: 'Permanent Marker', cursive;
 }
@@ -43,18 +43,14 @@ h1{
 #subt{
     text-align: center;
     position: relative;
-    margin-top: 40px;
+    margin-top: 5vh;
     font-family: 'Rock Salt', cursive;
     color: gray;
 }
 
-.p__perfil{
-    float: right;
-    margin-top: 30px;
-}
 .img__perfil{
-    width: 60px;
-    height: 60px;
+    width: 6vw;
+    height: 8vh;
     border-radius: 50%;
     padding: 10px;
     margin-top: 10px;
@@ -238,6 +234,7 @@ form{
 .home__button{
     float: left;
     margin: 30px;
+    padding-top: 0px;
 }
 
 #hbutton{
@@ -252,8 +249,8 @@ form{
     background-color: black;
 }
 .img__usuario{
-    width: 50px;
-    height: 50px;
+    width: 4vw;
+    height: 5vh;
     border-radius: 50%;
 }
 
@@ -264,16 +261,16 @@ form{
 }
 
 #interac__1{
-    width: 70px;
-    height: 30px;
+    width: 6vw;
+    height: 4vh;
     font-size: 10px;
     margin-left: 120px;
     margin-bottom: 50px;
 }
 #interac__2{
-    width: 70px;
-    height: 30px;
-    font-size: 10px;
+    width: 6vw;
+    height: 4vh;
+    font-size: 15px;
     margin-bottom: 50px;
     margin-left: 30px;
 }
