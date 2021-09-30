@@ -10,6 +10,8 @@ body{
 }
 nav{
     height: 11vh;
+    width: 100%;
+    margin: 0px;
 }
 
 .nav__btn, .dropdown{
@@ -294,4 +296,34 @@ form{
     color: cyan;
     background-color: black;
     border-color: black;
+}
+
+.img-error{
+    width: 50%;
+}
+.container1{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+    justify-content: center;
+}
+.herror{
+    color: black;
+    font-size: 20px;
+    padding: 20px;
+    font-style: $font-family;
+}
+.berror{
+    padding: 13px 30px;
+    border-radius: 15px;
+    border: none;
+    background:cyan;
+    color: white;
+}
+
+#b-error{
+    text-decoration: none;
+    color: black;
 }
