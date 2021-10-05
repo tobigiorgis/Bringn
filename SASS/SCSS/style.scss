@@ -3,6 +3,10 @@ $secondary-color: black;
 $font-family: monospace;
 
 @import 'SCSS/mob';
+@import 'SCSS/header';
+@import 'SCSS/nav';
+@import 'SCSS/section';
+@import 'SCSS/footer';
 
 body{
     width: 100%;
@@ -10,95 +14,10 @@ body{
     margin: 0px;
     padding: 0px;
 }
-nav{
-    height: 11vh;
-    width: 100%;
-    margin: 0px;
-}
-
-.nav__btn, .dropdown{
-    margin-bottom: 4vh;
-}
-
-
-#nav__2{
-    border-bottom:$secondary-color;
-    border-bottom-style: solid;
-    border-top-style: solid;
-    margin-top: 15px;
-}
-
-h1{
-    color:black;
-    width: auto;
-    height: 2vh;
-    text-align: center;
-    font-family: 'Permanent Marker', cursive;
-}
-.btn__h1{
-    color: black;
-    text-decoration: none;
-    &:hover{
-        color: black;
-        transform: scale(1.1, 1.1);
-    }
-}
-
-#subt{
-    text-align: center;
-    position: relative;
-    margin-top: 5vh;
-    font-family: 'Rock Salt', cursive;
-    color: gray;
-}
-.bloque3{
-    width: 0%;
-}
-
-.img__perfil{
-    width: 100%;
-    height: 8vh;
-    border-radius: 50%;
-    padding: 10px;
-    margin-top: 10px;
-    margin-left: 30px;
-}
-
-.bt{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    margin-top: 100px;
-}
 
 span{
     display: flex;
     justify-content: space-evenly;
-}
-.div__footer{
-    display: flex;
-    justify-content: space-evenly;
-}
-
-ul{
-    list-style: none;
-    ul{
-        display: none;
-        position: absolute;
-        li{
-            display: block;
-        }
-    }
-}
-li{
-    display: inline-block;
-    padding-left: 10px;
-}
-
-footer{
-    font-style: oblique;
-    display: block;
 }
 
 @media screen and (min-width: 980px) /* Desktop */ {
@@ -107,102 +26,8 @@ footer{
     }
 }
 
-  @media screen  and (max-width: 979px) and (min-width:501px) /* Tablet */ {
-    body {
-        background: blue;
-    }
-}
-
-#foot{
-    font-style: oblique;
-}
-
-@mixin bt ($background-color, $border, $font-family) {
-    background-color: $background-color;
-    border: $border;
-    font-family: $font-family;
-}
-
-#bt__1{
-    @include bt(cyan, none, monospace);
-    text-decoration: none;
-    color: $primary-color;
-    &:hover{
-        transform: scale(1.2, 1.2);
-        background-color: white;
-        color:black;
-        cursor: pointer;
-        border-radius: 10%;
-    }
-}
-#bt__2{
-    @include bt(black, none, monospace);
-    text-decoration: none;
-    color: white;
-    &:hover{
-        transform: scale(1.2, 1.2);
-        background-color: black;
-        color: white;
-        cursor: pointer;
-        border-radius: 10%;
-        border: none;
-    }
-}
-#obutton{
-    background-color: cyan;
-}
-#ebutton{
-    color: $primary-color;
-    border-style: solid;
-    border: 1px solid;
-    border-color: cyan;
-    margin-right: 50px;
-}
-
-.nav-item:hover{
-    transform: scale(1.1, 1.1);
-}
-.dropdown{
-    display: flex;
-    justify-content: flex-end;
-    margin-right: 60px;
-}
-
-.terminos{
-    display: flex;
-    justify-content: space-around;
-    font-style: oblique;
-    font-weight: 800;
-    margin-top: 40px;
-}
-
-#ofrecer{
-    margin-top: 15px;
-    width: 10vw;
-    height: 5vh;
-    background-color: turquoise;
-    border-style: inherit;
-}
-
 form{
     text-align: center;
-}
-
-.sub{
-    text-align: center;
-}
-
-@each $redSocial in facebook, twitter, instagram{
-    .#{$redSocial}{
-        width:40px;
-        height: 40px;
-        background-position:center;
-        background-size:contain;
-        background-repeat: no-repeat;
-        background-image: url("../resources/#{$redSocial}.png");
-        border-radius: 50%;
-    }
-    
 }
 
 .mb-3{
@@ -221,77 +46,8 @@ form{
     width: 500px;
 }
 
-@mixin registro ($color, $font-size, $font-family) {
-    color: $color;
-    font-size: $font-size;
-    font-family: $font-family;
-}
-
-
-.h1__registro{
-    @include registro($secondary-color, 20px, $font-family)
-}
-.h2__registro{
-    @include registro($secondary-color, 20px, $font-family)
-}
-
-.home__button{
-    float: left;
-    margin: 30px;
-    padding-top: 0px;
-}
-
-#hbutton{
-    color: black;
-    background-color: white;
-    border-color: black;
-}
-
-#hbutton:hover{
-    transform: scale(1.1, 1.1);
-    color: white;
-    background-color: black;
-}
-.img__usuario{
-    width: 100%;
-    height: 5vh;
-    border-radius: 50%;
-}
-.img-usuario{
-    width: 0%;
-}
-
-.usuarios_msj{
-    padding-top: 15px;
-    display: flex;
-    justify-content: center;
-}
-
-#interac__1{
-    width: 6vw;
-    height: 4vh;
-    font-size: 10px;
-    margin-left: 120px;
-    margin-bottom: 50px;
-}
-#interac__2{
-    width: 6vw;
-    height: 4vh;
-    font-size: 10px;
-    margin-bottom: 50px;
-    margin-left: 30px;
-}
-
 .container{
     margin: 100px;
-}
-.container-usuarios{
-    margin-left: 0px;
-    margin-top: 50px;
-}
-
-.bringn{
-    padding-left: 0px;
 }
 
 #formregistro{
@@ -331,8 +87,4 @@ form{
 #b-error{
     text-decoration: none;
     color: black;
-}
-
-#escribir{
-    margin: 10px;
 }

@@ -32,26 +32,6 @@
   #recibir {
     margin-top: 10px; } }
 
-body {
-  width: 100%;
-  height: 100%;
-  margin: 0px;
-  padding: 0px; }
-
-nav {
-  height: 11vh;
-  width: 100%;
-  margin: 0px; }
-
-.nav__btn, .dropdown {
-  margin-bottom: 4vh; }
-
-#nav__2 {
-  border-bottom: black;
-  border-bottom-style: solid;
-  border-top-style: solid;
-  margin-top: 15px; }
-
 h1 {
   color: black;
   width: auto;
@@ -84,20 +64,19 @@ h1 {
   margin-top: 10px;
   margin-left: 30px; }
 
-.bt {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  margin-top: 100px; }
+nav {
+  height: 11vh;
+  width: 100%;
+  margin: 0px; }
 
-span {
-  display: flex;
-  justify-content: space-evenly; }
+.nav__btn, .dropdown {
+  margin-bottom: 4vh; }
 
-.div__footer {
-  display: flex;
-  justify-content: space-evenly; }
+#nav__2 {
+  border-bottom: black;
+  border-bottom-style: solid;
+  border-top-style: solid;
+  margin-top: 15px; }
 
 ul {
   list-style: none; }
@@ -111,20 +90,44 @@ li {
   display: inline-block;
   padding-left: 10px; }
 
-footer {
-  font-style: oblique;
-  display: block; }
+#obutton {
+  background-color: cyan; }
 
-@media screen and (min-width: 980px) {
-  body {
-    background: white; } }
+#ebutton {
+  color: white;
+  border-style: solid;
+  border: 1px solid;
+  border-color: cyan;
+  margin-right: 50px; }
 
-@media screen and (max-width: 979px) and (min-width: 501px) {
-  body {
-    background: blue; } }
+.nav-item:hover {
+  transform: scale(1.1, 1.1); }
 
-#foot {
-  font-style: oblique; }
+.dropdown {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 60px; }
+
+.home__button {
+  float: left;
+  margin: 30px;
+  padding-top: 0px; }
+
+#hbutton {
+  color: black;
+  background-color: white;
+  border-color: black; }
+  #hbutton :hover {
+    transform: scale(1.1, 1.1);
+    color: white;
+    background-color: black; }
+
+.bt {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 100px; }
 
 #bt__1 {
   background-color: cyan;
@@ -153,24 +156,6 @@ footer {
     border-radius: 10%;
     border: none; }
 
-#obutton {
-  background-color: cyan; }
-
-#ebutton {
-  color: white;
-  border-style: solid;
-  border: 1px solid;
-  border-color: cyan;
-  margin-right: 50px; }
-
-.nav-item:hover {
-  transform: scale(1.1, 1.1); }
-
-.dropdown {
-  display: flex;
-  justify-content: flex-end;
-  margin-right: 60px; }
-
 .terminos {
   display: flex;
   justify-content: space-around;
@@ -184,78 +169,6 @@ footer {
   height: 5vh;
   background-color: turquoise;
   border-style: inherit; }
-
-form {
-  text-align: center; }
-
-.sub {
-  text-align: center; }
-
-.facebook {
-  width: 40px;
-  height: 40px;
-  background-position: center;
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-image: url("../resources/facebook.png");
-  border-radius: 50%; }
-
-.twitter {
-  width: 40px;
-  height: 40px;
-  background-position: center;
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-image: url("../resources/twitter.png");
-  border-radius: 50%; }
-
-.instagram {
-  width: 40px;
-  height: 40px;
-  background-position: center;
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-image: url("../resources/instagram.png");
-  border-radius: 50%; }
-
-.mb-3 {
-  width: 70vw;
-  margin: auto;
-  margin-top: 100px;
-  padding: 20px; }
-
-.form__reg {
-  justify-content: space-around;
-  padding: 10px;
-  margin: 100px 400px 0px 350px;
-  border: black;
-  border-style: solid;
-  width: 500px; }
-
-.h1__registro {
-  color: black;
-  font-size: 20px;
-  font-family: monospace; }
-
-.h2__registro {
-  color: black;
-  font-size: 20px;
-  font-family: monospace; }
-
-.home__button {
-  float: left;
-  margin: 30px;
-  padding-top: 0px; }
-
-#hbutton {
-  color: black;
-  background-color: white;
-  border-color: black; }
-
-#hbutton:hover {
-  transform: scale(1.1, 1.1);
-  color: white;
-  background-color: black; }
 
 .img__usuario {
   width: 100%;
@@ -284,15 +197,87 @@ form {
   margin-bottom: 50px;
   margin-left: 30px; }
 
-.container {
-  margin: 100px; }
-
 .container-usuarios {
   margin-left: 0px;
   margin-top: 50px; }
 
 .bringn {
   padding-left: 0px; }
+
+#escribir {
+  margin: 10px; }
+
+.div__footer {
+  display: flex;
+  justify-content: space-evenly; }
+
+footer {
+  font-style: oblique;
+  display: block; }
+
+#foot {
+  font-style: oblique; }
+
+.facebook {
+  width: 40px;
+  height: 40px;
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-image: url("../resources/facebook.png");
+  border-radius: 50%; }
+
+.twitter {
+  width: 40px;
+  height: 40px;
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-image: url("../resources/twitter.png");
+  border-radius: 50%; }
+
+.instagram {
+  width: 40px;
+  height: 40px;
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-image: url("../resources/instagram.png");
+  border-radius: 50%; }
+
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0px;
+  padding: 0px; }
+
+span {
+  display: flex;
+  justify-content: space-evenly; }
+
+@media screen and (min-width: 980px) {
+  body {
+    background: white; } }
+
+form {
+  text-align: center; }
+
+.mb-3 {
+  width: 70vw;
+  margin: auto;
+  margin-top: 100px;
+  padding: 20px; }
+
+.form__reg {
+  justify-content: space-around;
+  padding: 10px;
+  margin: 100px 400px 0px 350px;
+  border: black;
+  border-style: solid;
+  width: 500px; }
+
+.container {
+  margin: 100px; }
 
 #formregistro {
   margin: 100px; }
@@ -329,6 +314,3 @@ form {
 #b-error {
   text-decoration: none;
   color: black; }
-
-#escribir {
-  margin: 10px; }
