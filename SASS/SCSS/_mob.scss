@@ -1,0 +1,53 @@
+@media only screen and (max-width: 500px) /* Mobile */ {
+    #obutton{
+        width: 17vw;
+        height: 35px;
+        font-size: 13px;
+    }
+
+    #ebutton{
+        width: 18vw;
+        height: 35px;
+        font-size: 13px;
+        padding-left: 9px;
+    }
+
+    .nav__btn{
+        margin: 0px 80px 10px 0px;
+    }
+
+    #hbutton{
+        width: 10vw;
+        font-size: 11px;
+        padding: 5px;
+    }
+
+    .dropdown{
+        width: 13vw;
+        font-size: 10px;
+    }
+
+    .bringn{
+        width: 150vw;
+    }
+
+    #interac__2{
+        width: 10vw;
+    }
+
+    #costo{
+        width: 17vw;
+    }
+    #ubicacion{
+        width: 32vw;
+    }
+    #ofrecer{
+        font-size: 7px;
+    }
+    .terminos{
+        font-size: 15px;
+    }
+    #recibir{
+        margin-top: 10px;
+    }
+}

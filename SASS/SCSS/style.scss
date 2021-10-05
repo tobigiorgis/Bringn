@@ -2,6 +2,8 @@ $primary-color:white;
 $secondary-color: black;
 $font-family: monospace;
 
+@import 'SCSS/mob';
+
 body{
     width: 100%;
     height: 100%;
@@ -49,13 +51,17 @@ h1{
     font-family: 'Rock Salt', cursive;
     color: gray;
 }
+.bloque3{
+    width: 0%;
+}
 
 .img__perfil{
-    width: 6vw;
+    width: 100%;
     height: 8vh;
     border-radius: 50%;
     padding: 10px;
     margin-top: 10px;
+    margin-left: 30px;
 }
 
 .bt{
@@ -106,11 +112,7 @@ footer{
         background: blue;
     }
 }
-  @media only screen and (max-width: 500px) /* Mobile */ {
-    body {
-        background: green;
-    }
-}
+
 #foot{
     font-style: oblique;
 }
@@ -251,9 +253,12 @@ form{
     background-color: black;
 }
 .img__usuario{
-    width: 4vw;
+    width: 100%;
     height: 5vh;
     border-radius: 50%;
+}
+.img-usuario{
+    width: 0%;
 }
 
 .usuarios_msj{
@@ -326,4 +331,8 @@ form{
 #b-error{
     text-decoration: none;
     color: black;
+}
+
+#escribir{
+    margin: 10px;
 }
